@@ -101,7 +101,6 @@
 		C83B959626279A870020F263 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				C83B95D52627A15B0020F263 /* Models */,
 				C83B95CC26279FB40020F263 /* Networking */,
 				C83B95CB26279F910020F263 /* ViewControllers */,
 				C83B959726279A870020F263 /* AppDelegate.swift */,
@@ -146,13 +145,6 @@
 				C83B95CD26279FC40020F263 /* API.swift */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		C83B95D52627A15B0020F263 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
