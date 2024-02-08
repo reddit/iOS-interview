@@ -14,16 +14,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let _ = (scene as? UIWindowScene) else { return }
-        
-        // UNCOMMENT THIS TO NOT USE THE STORYBOARD
-//        guard let windowScene = (scene as? UIWindowScene) else { return }
-//        let vc = ViewController()
-//
-//        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
-//        window?.windowScene = windowScene
-//        window?.rootViewController = vc
-//        window?.rootViewController?.view.backgroundColor = .systemBlue
-//        window?.makeKeyAndVisible()
+
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        let vc = ViewController()
+
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        window?.rootViewController = vc
+        window?.rootViewController?.view.backgroundColor = .systemBlue
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
